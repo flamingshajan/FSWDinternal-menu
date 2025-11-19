@@ -1,0 +1,70 @@
+/* src/index.css (Luxury Hotel Theme) */
+:root {
+  /* Using Apple's elegant fonts: Baskerville for titles, Avenir for body */
+  font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #333;
+  background-color: #fafafa; 
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+}
+
+#root {
+  max-width: 1000px; 
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+/* Titles: Serif font for luxury */
+h1, h2 {
+  font-family: 'Baskerville', 'Big Caslon', serif; 
+  font-weight: 400; 
+  text-transform: uppercase;
+  letter-spacing: 3px; 
+  color: #5d4037; 
+}
+
+/* Main Container */
+.menu-container {
+  padding: 40px;
+  background-color: white;
+  border-radius: 4px; 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  width: 100%; /* Ensure it fills the max-width of root */
+}
+
+/* Sections */
+.menu-section {
+  margin-bottom: 50px;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.category-heading {
+  font-size: 2.2em;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #a04000;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Horizontal Rule for separation */
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 30px 0;
+}
