@@ -4,8 +4,8 @@ A modern, responsive React application showcasing a restaurant menu. It features
 
 ## 🚀 Links (Mandatory for Submission)
 
-- **GitHub Repository:** [INSERT YOUR GITHUB REPO LINK HERE]
-- **Live Website:** [INSERT YOUR VERCEL/NETLIFY DEPLOYMENT LINK HERE]
+- **GitHub Repository:** [https://github.com/flamingshajan/FSWDinternal-menu.git]
+- **Live Website:** (https://menu-fswd-flaming.netlify.app/)
 
 ## 🏗️ Component Structure
 
